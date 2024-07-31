@@ -1,6 +1,7 @@
 let nome = prompt("Digite o nome do herói:");
 let xp = parseInt(prompt("Digite a quantidade de experiência (XP) do herói:"), 10);
 
+// Determina o nível do herói com base na quantidade de XP
 let nivel;
 
 if (xp < 1000) {
